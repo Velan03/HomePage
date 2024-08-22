@@ -1,0 +1,78 @@
+
+.about {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+    padding: 20px; /* Increased padding for better spacing */
+    background: #000; /* Fallback background color */
+    color: #fff; /* Text color to contrast with the background */
+}
+
+.about-content {
+    display: flex;
+    flex-direction: row; /* Align items horizontally */
+    align-items: center; /* Center vertically */
+    justify-content: space-between; /* Space between text and image */
+    max-width: 1200px; /* Limit width for larger screens */
+    margin-bottom: 30px;
+}
+
+.text {
+    flex: 1; /* Take up available space */
+    max-width: 60%; /* Limit the width of text area */
+    padding: 10px;
+}
+
+.image {
+    flex: 1; /* Take up available space */
+    max-width: 45%; /* Limit the width of image */
+}
+
+.image img {
+    width: 100%; /* Full width of container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.about-extra {
+    background: rgba(0, 0, 0, 0.7);  
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;   
+    max-width: 800px;  
+    width: 100%; 
+}
+
+.about-extra h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.about-extra ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.about-extra li {
+    margin: 10px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #db4d15;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;  
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #b43c0f;
+}
+
+

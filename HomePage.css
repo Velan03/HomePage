@@ -180,5 +180,9 @@ footer.contact #links a {
 }
 
 footer.contact #links a:hover {
-    color: #db4d15;
+    color: #00fdbe;
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 2px 5px 18px #00fdbe ;
 }
